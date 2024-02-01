@@ -36,12 +36,12 @@ mastodon_link                             :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Only Up
-    description                           : Move forward only up, never down, best parkour game ever.
+  - title                                 : Monster World
+    description                           : Get in touch with monsters and make them pals. The world is yours.
     fontawesome_icon_name                 : magic
     
-  - title                                 : Cross Platform Mobile support
-    description                           : The app is published on iOS and Android 
+  - title                                 : Creativity
+    description                           : Use the creativity and sown strategic to find all frineds you need.
     fontawesome_icon_name                 : mobile
 
   - title                                 : Fremium game
