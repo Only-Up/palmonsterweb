@@ -1,0 +1,23 @@
+{
+    "cooldown": 80,
+    "onEveryCheckpoint":false,
+    "freeUseCount":3,
+    "freeTeleportCooldown":3,
+    "enableAdsOnSecondLevels":false,
+    "nextCheckpointPrice" : 4,
+    "world1text" : "Thanks for playing !!!\nWait for the new updates ! \nPurchase MARS for new experience!",
+    "world2text" : "Thanks for support !!!\nWait for the new updates ! \nOur Jump Up Team",
+    "removeAdsPopupFrequency" : 4,
+    "enableInterstitial" : true,
+    "canOpenLevelAfterFinish" : false,
+    "saveOnFall" : false,
+    "sendData": false,
+    "showAdOnLevelStart" : true,
+    "noobsCount" : 5,
+    "proCount" : 5,
+    "minPlayedTime" : 300,
+    "readFromStorage" : 50,
+    "maxEarthHeight" : -50,
+    "maxMarsHeight" : 10000,
+    "showData" : false
+}

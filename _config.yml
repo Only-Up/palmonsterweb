@@ -1,31 +1,33 @@
 #page title
-page_title                                : Only Up!
+page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 6450400097
-ios_app_country                           : us
-appstore_link                             : https://apps.apple.com/us/app/only-up-dont-fall/id6450400097
-playstore_link                            : https://play.google.com/store/apps/details?id=com.whitelab.onlyjumpup&gl=VN
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-# Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+ios_app_id                                : 6450400097                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-app_icon                                  : assets/appicon.png                      
-app_name                                  : Only Up : don't fall!
-app_price                                 : Free
-app_description                           : The world is undoubtedly in a state of turmoil, but it's important to acknowledge that it has never been entirely stable. Nevertheless, the present circumstances could be viewed as an opening for you to make a positive impact. When faced with a crisis, it's essential to take action and make decisive choices, even though doing so can be frightening since every step carries the potential to set you back.
+appstore_link                             : https://apps.apple.com/US/app/id6450400097                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.whitelab.onlyjumpup&gl=VN                                          # Enter Google Play Store URL.
+presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-enable_smart_app_banner                   : true
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Only UP! Never Down! New updates soon!!!
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
 
 
 # Information About Yourself
-your_name                                 : Ionita Serghei                              
-your_link                                 : https://linkyy.co/whitelab                 
+your_name                                 : Ionita Serghei                             
+your_link                                 : https://linkyy.co/whitelab                     
 your_city                                 : WorldWide                                
 email_address                             : ionita12@mail.ru
 facebook_username                         :                                           
 instagram_username                        : 
 twitter_username                          : 
-github_username                           : only-Up
+github_username                           : 
 youtube_username                          :
 mastodon_link                             : 
 
@@ -33,6 +35,7 @@ mastodon_link                             :
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
+
   - title                                 : Only Up
     description                           : Move forward only up, never down, best parkour game ever.
     fontawesome_icon_name                 : magic
@@ -43,7 +46,12 @@ features                                  :
 
   - title                                 : Fremium game
     description                           : The game contains ads, but it is absolute free.
-    fontawesome_icon_name                 : gamepad
+    fontawesome_icon_name                 : play-circle
+
+
+  - title                                 : # New Feature Title
+    description                           : # New Feature Description
+    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 
 
@@ -52,7 +60,7 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/headerimage.png
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
 cover_overlay_transparency                : 0.8
 
